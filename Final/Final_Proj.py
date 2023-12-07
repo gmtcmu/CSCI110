@@ -27,6 +27,8 @@ def main():
                 print ("Your number is too low, try again.")
             elif rn < ui:
                 print("Your number is too high, try again.")
+            if i == 4:
+                print("You lose!")
         ask = input("Do you want to play again? (y/n) ")
         if ask == 'n':
             kr = False #stop loop
